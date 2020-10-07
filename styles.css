@@ -1,0 +1,47 @@
+.aHeader{
+    color: #48dd1a;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    color: blue;
+
+}
+
+p{
+    color:red;
+}
+
+
+.wrapper{
+    border: 10px solid black;
+    background-color: gray
+}
+
+.firstTruth{
+    border: 5px solid black;
+    background-color: gray;
+    text-align: center;
+
+}
+.secondTruth{
+    border: 5px solid black;
+    background-color: gray;
+    text-align: center;
+
+}
+
+.thirdTruth{
+    border: 5px solid black;
+    background-color: gray;
+    text-align: center;
+
+}
+
+
+    
+    
+  
