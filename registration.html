@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Dapper Dog Day Care</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="registration.css">
 </head>
 <body>
     <header>
@@ -30,32 +30,29 @@
         </nav>
     </header>
     </section>
-    <section id="main" class = "contentWrapper"
-        <!--Dog Services-->
-            <div class="panel1">
-                <img src ="assets/Boarding.png" alt="Boarding" />
-                <h2>Boarding</h2>
-                <p>Play all day, sleep all night! Dogs attend daycare each day and then rest comofortably inside their own private space</p>
-                <Button>Learn More</Button>
-            </div>
-            <div class="panel2">
-                <img src ="assets/grooming2.png" alt="Grooming" />
-                <h2>Grooming</h2>
-                <p>Equipped with state of the art equipmen and experienced groomers, we will provide your pup with all of the kindness and comfort possible</p>
-                <Button>Learn More</Button>
-            </div>
-            <div class="panel3">
-                <img src ="assets/daycare3.png" alt="Daycare" />
-                <h2>Daycare</h2>     
-                <p>Bring them to play! We provide a fun, safe and active environment for dogs of all sizes. Dogs are free to play in our huge indoor/outdoor play areas</p>
-                <Button>Learn More</Button>
-            </div>
-    </section>
 
+    <div class ="instructions"> 
+        <h5>Please enter the following information and we will respond to your inquiry within 24 hours. Thanks!</h5>
+    </div>
 
-    <img src="assets/Harvey.jpg" alt="Harvey" class="center">
-
-    
+    <div class='container'>
+        <div class='reg-form'>
+        </div>
+       
+     
+     <form name='enter'>
+     <input type='text'name='login' class='name-enter' 
+     placeholder='Name' required></input>
+     <input type='text' name='email' class='email-enter' placeholder='Email Address' required></input>
+     <input type='text' name='pet' class='petname-enter' placeholder='Pet Name' required></input>
+     <input type='text' name='breed' class='breed-enter' placeholder='Breed' required></input>
+     <input type='text' name='age' class='age-enter' placeholder='Pet Age' required></input>
+     <input type='text' name='gender' class='gender-enter' placeholder='Pet Gender' required></input>
+     <input type='text' name='shots' class='shots-enter' placeholder='Immunization Due Date' required></input>
+     <input type='text' name='date' class='date-enter' placeholder='Dates Requested' required></input>
+     <input type='submit' name='submit-reg' class='submit-reg' value='Submit'></input>
+     </form>
+     </div>
 
     <footer>
         <!--Navigational items-->
@@ -64,7 +61,6 @@
          <li><a href="#">Sitemap</a></li>
          <li><a href="#">Privacy Policy</a></li>
          <li><a href="#">Terms of Use</a></li>
-         
      </ul>
     </footer>
 </body>
